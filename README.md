@@ -32,7 +32,7 @@ codex
 >/permission #set to Read Only
 ```
 
-## Codex can read and edit files but asks for approval before running untrusted commands.
+### Codex can read and edit files but asks for approval before running untrusted commands.
 ```
 codex --sandbox workspace-write --ask-for-approval untrusted
 ```
