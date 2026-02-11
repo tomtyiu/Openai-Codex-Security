@@ -3,6 +3,11 @@ Setup for least privilege OpenAI's Codex
 
 ## Install
 Follow procedure to install OpenAI's Codex
+npm
+```
+npm i -g @openai/codex
+```
+
 
 ## Command for security
 ### Sandbox policy for model-generated commands. Defaults to configuration.
