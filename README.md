@@ -30,3 +30,8 @@ codex
 >/permission #set to Read Only
 ```
 
+### to avoid any security issues, please do not run:
+Run every command without approvals or sandboxing. **Only use inside an externally hardened environment.**
+```
+codex --dangerously-bypass-approvals-and-sandbox, --yolo
+```
