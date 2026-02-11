@@ -5,14 +5,17 @@ Setup for least privilege OpenAI's Codex
 Follow procedure to install OpenAI's Codex
 
 ## Command for security
-Sandbox policy for model-generated commands. Defaults to configuration.
+### Sandbox policy for model-generated commands. Defaults to configuration.
 ```
 codex --sandbox workspace-write ## workspace write
 ```
-or
-read-only
+
+### read-only
 ```
 codex --sandbox read-only 
 ```
-
+### Run arbitrary commands inside Codex-provided macOS seatbelt or Linux sandboxes (Landlock by default, optional bubblewrap pipeline).
+```
+codex sandbox
+```
 
