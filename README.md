@@ -19,3 +19,9 @@ codex --sandbox read-only
 codex sandbox
 ```
 
+## For codex's command line security:
+```
+codex
+>/permission #set to Read Only
+```
+
