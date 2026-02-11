@@ -1,5 +1,5 @@
 # Openai-Codex-Security
-Setup for least privilege OpenAI's Codex
+Setup for least privilege OpenAI's Codex in local systems
 
 ## Install
 Follow procedure to install OpenAI's Codex
@@ -11,11 +11,13 @@ npm i -g @openai/codex
 
 ## Command for security
 ### Sandbox policy for model-generated commands. Defaults to configuration.
+allow only write on workspace folder currently running codex
 ```
 codex --sandbox workspace-write ## workspace write
 ```
 
 ### read-only
+Read only, do not write permissions on the system
 ```
 codex --sandbox read-only 
 ```
