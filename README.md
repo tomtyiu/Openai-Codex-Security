@@ -44,4 +44,4 @@ codex --dangerously-bypass-approvals-and-sandbox, --yolo
 ```
 
 Reference:
-- (OpenAI's Codex Security)[https://developers.openai.com/codex/security]
+- [OpenAI's Codex Security](https://developers.openai.com/codex/security)
