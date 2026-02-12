@@ -1,5 +1,7 @@
 # Openai-Codex-Security
 This is repository to provide OpenAI's Codex security and safety information.   Codex uses strict read-only permissions by default, but if you want further security, here are some further settings and commands.
+
+this is only for OpenAI's Codex CLI.  This will not applicable with Codex app or Codex web.
 ## Install
 Follow procedure to install OpenAI's Codex
 npm
