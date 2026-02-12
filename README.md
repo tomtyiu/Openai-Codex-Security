@@ -1,6 +1,5 @@
 # Openai-Codex-Security
-Setup for least privilege OpenAI's Codex in local systems
-
+This is repositiory to provide OpenAI's Codex security and safety information Codex uses strict read-only permissions by default, but if you want further security, here are some further settings and commands.
 ## Install
 Follow procedure to install OpenAI's Codex
 npm
